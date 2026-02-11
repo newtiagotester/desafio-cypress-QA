@@ -1,17 +1,7 @@
-# desafio-cypress-QA
+1- Unzip the desafio-cypress-qa.zip file 2- Open Visual Studio Code directly from the folder (it will load the automation files) 3- Make sure Node.js is installed (at least version 20.19); if not, install it 4- Open the VS Code terminal and install the Cypress dependencies (npm install cypress@14.1.0 -D) — version 14.1.0 is recommended 5- To run the tests, open Cypress (npx cypress open) and run E2E Testing (Specs / Login)
 
-1- Descompactar o arquivo desafio-cypress-qa.zip
-2- abrir o visual studio code direto pela pasta (irá carregar os arquivos da automação)
-3- certifique-se que tenha o node.js instalado (pelo menos a versão 20.19), caso não tenha, instale
-4- abrir o terminal do VS code e instalar as dependências do cypress (npm install cypress@14.1.0 -D) versão 14.1.0 é recomendada
-5- para rodar os testes abra o cypress (npx cypress open) e execute o E2E testing ( Specs / Login )
+List of automated scenarios
 
-Lista de cenários automatizados
+Inside the Login.cy file there are 3 login test scenarios with 1 test case each. I chose the login feature because it’s more repetitive from a user perspective and essential to the functioning of any application.
 
-Dentro do arquivo Login.cy existem 3 cenários de teste de login com 1 caso de teste cada. Escolhi 
-a feature de login por ser algo mais repetitivo numa visão de usuário e essencial para o funcionamento
-de qualquer aplicação.
-
-1- Login de usuário com sucesso (valida se o usuário consegue fazer o login corretamente)
-2- Erro - usuário inválido (Não faz o login como esperado, validando a mensagem de alerta para e-mail incorreto)
-3- Erro - Senha inválida (Não faz o login, validando a mensagem de alerta para senha incorreta)
+1- Successful user login (validates that the user can log in correctly) 2- Error — invalid user (does not log in as expected, validating the alert message for incorrect email) 3- Error — invalid password (does not log in, validating the alert message for incorrect password)
